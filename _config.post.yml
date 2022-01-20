@@ -1,8 +1,9 @@
 widgets: 
+
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
         # Whether to show the index of each heading
         index: true
@@ -10,27 +11,28 @@ widgets:
         collapsed: true
         # Maximum level of headings to show (1-6)
         depth: 3
-    # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: right
+        type: tags
+    # Recent posts widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
         type: recent_posts
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: categories
 
     # Archives widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
+        position: left
         type: archives
     # Tags widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: tags
+
     # Google AdSense unit configurations
     # -
     #     # Where should the widget be placed, left sidebar or right sidebar

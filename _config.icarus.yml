@@ -180,11 +180,11 @@ plugins:
     busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
-    cnzz:
-        # CNZZ tracker id
-        id: 
-        # CNZZ website id
-        web_id: 
+    # cnzz:
+    #     # CNZZ tracker id
+    #     id: 
+    #     # CNZZ website id
+    #     web_id: 
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
     cookie_consent:
@@ -199,17 +199,17 @@ plugins:
         # URL to your site's cookie policy
         policyLink: https://www.cookiesandyou.com/
     # Enable the lightGallery and Justified Gallery plugins
-    gallery: true
+    gallery: false
     # Google Analytics plugin settings
     # https://analytics.google.com
-    google_analytics:
-        # Google Analytics tracking ID
-        tracking_id: 
-    # Hotjar user feedback plugin
-    # https://www.hotjar.com/
-    hotjar:
-        # Hotjar site id
-        site_id: 
+    # google_analytics:
+    #     # Google Analytics tracking ID
+    #     tracking_id: 
+    # # Hotjar user feedback plugin
+    # # https://www.hotjar.com/
+    # hotjar:
+    #     # Hotjar site id
+    #     site_id: 
     # Enable the KaTeX math typesetting support
     # https://katex.org/
     katex: false
@@ -220,7 +220,7 @@ plugins:
     # http://outdatedbrowser.com/
     outdated_browser: false
     # Show a progress bar at top of the page on page loading
-    progressbar: true
+    progressbar: false
     # Statcounter statistics
     # https://statcounter.com/
     statcounter:
@@ -243,6 +243,4 @@ providers:
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: fontawesome
 
-
-include:
-  - ".nojekyll"
+ 

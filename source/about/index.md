@@ -1,7 +1,8 @@
 ---
 title: 关于
 date: 2022-01-19 21:21:19
-
+cover: /gallery/covers/1.jpg
+thumbnail: /gallery/covers/1.jpg
 ---
 
 ## 网站

@@ -24,6 +24,7 @@ i18n_dir: ':lang'
 skip_render: null
 
 # 文章设置
+toc: true
 new_post_name: ':title.md'
 default_layout: post
 titlecase: false
@@ -77,7 +78,7 @@ theme: icarus
 deploy:
   type: git
   repo: git@github.com:enncy/blog.git
-  branch: blog
+  branch: main
   message: deploy blog
 
 
