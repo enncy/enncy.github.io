@@ -12,9 +12,9 @@ jobs:
           node-version: '14'
       - run: npm install
       # 清理
-      - run: hexo clean
+      - run: npx hexo clean
       # 创建 nojekyll 文件
       - run: mkdir public
       - run: echo '# 此文件表明不需要 github 去使用 jekyll 构建本分支' >> public/.nojekyll
       # 构建 部署
-      - run: hexo deploy
+      - run: npx hexo deploy
