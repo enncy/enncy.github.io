@@ -37,8 +37,9 @@ jobs:
 
       - name: Deploy
         # 清空 -> 创建 nojekyll 文件 -> 部署
-        - run: hexo clean
-        - run: mkdir public
-        - run: echo '# 此文件表明不需要 github 去使用 jekyll 构建本分支' >> public/.nojekyll
-        - run: hexo deploy
-            
+        run: |
+            ls -l
+            hexo clean
+            mkdir public
+            echo '# 此文件表明不需要 github 去使用 jekyll 构建本分支' >> public/.nojekyll
+            hexo deploy
