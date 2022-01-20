@@ -172,9 +172,9 @@ plugins:
         tracking_id: 61c20221bfaeeefdaa6dbeb854924c56
     # Bing Webmaster Tools plugin settings
     # https://www.bing.com/toolbox/webmaster/
-    bing_webmaster:
-        # Bing Webmaster Tools tracking ID in the <meta> tag
-        tracking_id: https://enncy.github.io/blog/
+    # bing_webmaster:
+    #     # Bing Webmaster Tools tracking ID in the <meta> tag
+    #     tracking_id: https://enncy.github.io/blog/
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
     busuanzi: true
