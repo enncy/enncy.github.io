@@ -1135,7 +1135,7 @@
   "resolved" "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz"
   "version" "1.1.2"
 
-"bulma-stylus@0.8.0":
+"bulma-stylus@^0.8.0", "bulma-stylus@0.8.0":
   "integrity" "sha512-9Q9BMPeHFyJ5EWh/tJPCcLDYEovKzUBOyMHsKEIyxSYEKG8wqt9RVuTumaJ2AfDjyHC9OifWKOfJSweKYD5IMQ=="
   "resolved" "https://registry.npmjs.org/bulma-stylus/-/bulma-stylus-0.8.0.tgz"
   "version" "0.8.0"
