@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>enncy的博客</title>
+  
+  <subtitle>分享所学的知识</subtitle>
+  <link href="https://enncy.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://enncy.github.io/"/>
+  <updated>2022-01-20T12:29:52.470Z</updated>
+  <id>https://enncy.github.io/</id>
+  
+  <author>
+    <name>enncy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 json 进行谷歌浏览器自动化测试</title>
+    <link href="https://enncy.github.io/2022/01/19/%E4%BD%BF%E7%94%A8%20json%20%E8%BF%9B%E8%A1%8C%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    <id>https://enncy.github.io/2022/01/19/%E4%BD%BF%E7%94%A8%20json%20%E8%BF%9B%E8%A1%8C%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</id>
+    <published>2022-01-19T12:08:13.000Z</published>
+    <updated>2022-01-20T12:29:52.470Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;自己开发的库 &lt;code&gt;jsonsep&lt;/code&gt;&lt;br&gt;github : &lt;a href=&quot;https://github.com/enncy/jsonsep&quot;&gt;https://github.com/enncy/jsonsep&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;示例&quot;&gt;&lt;a href=&quot;#示例&quot; class=&quot;headerlink&quot; title=&quot;示例&quot;&gt;&lt;/a&gt;示例&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;只需要编写下面一样的 json ，就可以让浏览器自动运行，原理就是通过解析 json 进行浏览器的调用，底层通过 puppeteer 实现&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://enncy.github.io/categories/Diary/"/>
+    
+    <category term="Life" scheme="https://enncy.github.io/categories/Life/"/>
+    
+    <category term="test" scheme="https://enncy.github.io/categories/test/"/>
+    
+    <category term="test2" scheme="https://enncy.github.io/categories/test/test2/"/>
+    
+    <category term="Life2" scheme="https://enncy.github.io/categories/Life2/"/>
+    
+    
+  </entry>
+  
+</feed>
