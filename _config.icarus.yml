@@ -77,7 +77,7 @@ comment:
     type: gitalk
     client_id: abdd5c5f3c9f1ee6e14a
     client_secret: 70ca70318368429e743ae926d49de418f92fe61e
-    repo: https://github.com/enncy/enncy.github.io
+    repo: enncy.github.io
     owner: enncy
     admin:
         - enncy
