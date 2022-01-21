@@ -11,21 +11,23 @@ categories:
     - 文档
 permalink: /jpptr/
 widgets:
-    - 
-        type: toc
-        position: right
+    - type: toc
+      position: right
 ---
 
 一个使用 json 语法糖去执行 puppeteer 的框架。
-<!-- more -->
+项目地址: [github.com/enncy/jpptr](github.com/enncy/jpptr)
 
+::: info
+test
+:::
+
+<!-- more -->
 
 ## 快速开始
 
 ```shell
-npm install hexo
+npm install jpptr
 ```
- 
-```js test.js
-var test = 2
-```
+
+...

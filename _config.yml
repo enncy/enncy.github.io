@@ -94,3 +94,20 @@ feed:
     content_limit_delim: " " #上面截取描述的分隔符,截取内容是以指定的这个分隔符作为截取结束的标志.在达到规定的内容长度之前最后出现的这个分隔符之前的内容,，防止从中间截断.
     order_by: -date
     icon: #icon.png
+
+    
+markdown:
+    preset: "default"
+    render:
+        html: true
+        xhtmlOut: false
+        langPrefix: "language-"
+        breaks: true
+        linkify: true
+        typographer: true
+        quotes: "“”‘’"
+    enable_rules:
+    disable_rules:
+    plugins:
+        - markdown-it-container
+        - markdown-it-emoji
