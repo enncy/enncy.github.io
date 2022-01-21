@@ -47,6 +47,9 @@ footer:
             url: /about
 # Article related configurations
 article:
+    # 显示代码语言
+    markdown:
+        showLang: true
     # Code highlight settings
     highlight:
         # Code highlight themes

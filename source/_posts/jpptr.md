@@ -23,13 +23,9 @@ widgets:
 ## 快速开始
 
 ```shell
-npm install jpptr
+npm install hexo
 ```
-
-```js
-var jpptr = 1
-```
-
-```js
-var jpptr = 2
+ 
+```js test.js
+var test = 2
 ```

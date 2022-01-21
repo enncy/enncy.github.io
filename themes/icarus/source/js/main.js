@@ -114,6 +114,18 @@
         }
     }
 
+    const showLang = config?.article?.markdown?.showLang;
+    if (showLang) {
+        /*  show the code language of markdown */
+        $("figure.highlight").each(function (i, el) {
+            let right = $(el).find("figcaption > .level-right");
+            let span = document.createElement("span");
+            span.innerText = el.className.split(" ")[1];
+
+            right.prepend(span);
+        });
+    }
+
     const $toc = $("#toc");
     if ($toc.length > 0) {
         const $mask = $("<div>");
@@ -131,12 +143,4 @@
         $mask.on("click", toggleToc);
         $(".navbar-main .catalogue").on("click", toggleToc);
     }
-
-    /*   markdown 语言显示支持 */
-    $("figure.highlight").each(function (i, el) {
-        let left = $(el).find("figcaption > .level-right");
-        let span = document.createElement("span");
-        span.innerText = el.className.split(" ")[1];
-        left.prepend(span);
-    });
 })(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings);
