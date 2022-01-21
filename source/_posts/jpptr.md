@@ -22,14 +22,14 @@ widgets:
 
 ## 快速开始
 
-```shell shell
+```shell
 npm install jpptr
 ```
 
-```js js
+```js
 var jpptr = 1
 ```
 
-```js js
+```js
 var jpptr = 2
 ```
