@@ -6,7 +6,7 @@
   <link href="https://enncy.github.io/atom.xml" rel="self"/>
   
   <link href="https://enncy.github.io/"/>
-  <updated>2022-01-21T05:26:20.601Z</updated>
+  <updated>2022-01-21T13:32:56.573Z</updated>
   <id>https://enncy.github.io/</id>
   
   <author>
@@ -17,6 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Jpptr 文档</title>
+    <link href="https://enncy.github.io/jpptr/"/>
+    <id>https://enncy.github.io/jpptr/</id>
+    <published>2022-01-21T08:12:27.000Z</published>
+    <updated>2022-01-21T13:32:56.573Z</updated>
+    
+    
+    <summary type="html">一个使用 json 语法糖去执行 puppeteer 的框架。
+项目地址: [github.com/enncy/jpptr](github.com/enncy/jpptr)
+
+&lt;article class=&quot;message message-immersive is-info&quot;&gt;
+                        &lt;div class=&quot;message-body&quot;&gt;
+                            &lt;i class=&quot;undefined mr-2&quot;&gt;&lt;/i&gt;
+                            test
+                        &lt;/div&gt;
+                    &lt;/article&gt;</summary>
+    
+    
+    
+    <category term="文档" scheme="https://enncy.github.io/categories/%E6%96%87%E6%A1%A3/"/>
+    
+    
+    <category term="文档" scheme="https://enncy.github.io/tags/%E6%96%87%E6%A1%A3/"/>
+    
+    <category term="json" scheme="https://enncy.github.io/tags/json/"/>
+    
+    <category term="jpptr" scheme="https://enncy.github.io/tags/jpptr/"/>
+    
+    <category term="puppeteer" scheme="https://enncy.github.io/tags/puppeteer/"/>
+    
+  </entry>
+  
+  <entry>
     <title>测试文章</title>
     <link href="https://enncy.github.io/2022/01/21/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <id>https://enncy.github.io/2022/01/21/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</id>
@@ -24,7 +57,7 @@
     <updated>2022-01-21T05:26:20.601Z</updated>
     
     
-    <summary type="html">&lt;p&gt;摘要&lt;/p&gt;</summary>
+    <summary type="html">摘要</summary>
     
     
     
@@ -43,7 +76,11 @@
       
         
         
-    <summary type="html">&lt;p&gt;欢迎来到我的博客 😁, 有任何问题,请到 &lt;a href=&quot;/about&quot;&gt;关于&lt;/a&gt;</summary>
+    <summary type="html">
+欢迎来到我的博客 😁, 有任何问题,请到 [关于](/about) 页面获取我的联系方式，联系我。
+
+
+</summary>
         
       
     
@@ -60,7 +97,7 @@
     <updated>2022-01-20T15:47:46.331Z</updated>
     
     
-    <summary type="html">&lt;p&gt;测试&lt;/p&gt;</summary>
+    <summary type="html">测试</summary>
     
     
     
