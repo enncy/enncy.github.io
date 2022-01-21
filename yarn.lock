@@ -1858,7 +1858,7 @@
     "inferno-create-element" "^7.3.3"
     "inferno-server" "^7.3.3"
 
-"hexo-renderer-marked@^4.0.0":
+"hexo-renderer-marked@^4.1.0":
   "integrity" "sha512-WnDiqv++VqXoQPBPEtb0KD3jhgjQXzgNHUyFWFMPH5uC0cGUMXJOdf/QmvfCjGqjL14z0EnSTpoKXqssUb//yQ=="
   "resolved" "https://registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-4.1.0.tgz"
   "version" "4.1.0"

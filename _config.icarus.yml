@@ -3,7 +3,7 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: 
+logo:
     text: enncy的博客
 # Page metadata configurations
 head:
@@ -13,13 +13,13 @@ head:
     meta:
         # Meta tag specified in <attribute>=<value> style
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
-        - ''
+        - ""
     # URL or path to the website's RSS atom.xml
     rss: /atom.xml
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
-    menu: 
+    menu:
         首页: /
         归档: /archives
         分类: /categories
@@ -62,7 +62,7 @@ article:
     update_time: true
     # Article licensing block
     licenses:
-        'CC BY-NC-SA 4.0': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
+        "CC BY-NC-SA 4.0": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
@@ -81,24 +81,22 @@ comment:
     owner: enncy
     admin:
         - enncy
-    per_page: 20                    # 可选填
-    distraction_free_mode: false    # 可选填
-    pager_direction: last           # 可选填
-    create_issue_manually: false    # 可选填
-    proxy:                          # 可选填
-    flip_move_options:              # 可选填
-    enable_hotkey: true             # 可选填
-    language: zh-CN                 # 可选填
-
+    per_page: 20 # 可选填
+    distraction_free_mode: false # 可选填
+    pager_direction: last # 可选填
+    create_issue_manually: false # 可选填
+    proxy: # 可选填
+    flip_move_options: # 可选填
+    enable_hotkey: true # 可选填
+    language: zh-CN # 可选填
 
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
     # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: https://afdian.net/@enncy
+    - type: afdian
+      # URL to the "Afdian.net" personal page
+      url: https://afdian.net/@enncy
     # # Alipay donate button configurations
     # -
     #     type: alipay
@@ -145,28 +143,24 @@ sidebar:
         sticky: false
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
-widgets: 
+widgets:
     # Recent posts widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: recent_posts
+    - # Where should the widget be placed, left sidebar or right sidebar
+      position: right
+      type: recent_posts
     # Categories widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: categories
+    - # Where should the widget be placed, left sidebar or right sidebar
+      position: right
+      type: categories
 
     # Archives widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: archives
+    - # Where should the widget be placed, left sidebar or right sidebar
+      position: right
+      type: archives
     # Tags widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: tags
+    - # Where should the widget be placed, left sidebar or right sidebar
+      position: right
+      type: tags
     # Google AdSense unit configurations
     # -
     #     # Where should the widget be placed, left sidebar or right sidebar
@@ -200,9 +194,9 @@ plugins:
     # https://www.umeng.com/web
     # cnzz:
     #     # CNZZ tracker id
-    #     id: 
+    #     id:
     #     # CNZZ website id
-    #     web_id: 
+    #     web_id:
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
     cookie_consent:
@@ -222,12 +216,12 @@ plugins:
     # https://analytics.google.com
     # google_analytics:
     #     # Google Analytics tracking ID
-    #     tracking_id: 
+    #     tracking_id:
     # # Hotjar user feedback plugin
     # # https://www.hotjar.com/
     # hotjar:
     #     # Hotjar site id
-    #     site_id: 
+    #     site_id:
     # Enable the KaTeX math typesetting support
     # https://katex.org/
     katex: false
@@ -243,14 +237,14 @@ plugins:
     # https://statcounter.com/
     statcounter:
         # Statcounter project id
-        project: 
+        project:
         # Statcounter project security code
-        security: 
+        security:
     # Twitter conversion tracking plugin settings
     # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
     twitter_conversion_tracking:
         # Twitter Pixel ID
-        pixel_id: 
+        pixel_id:
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
@@ -260,5 +254,3 @@ providers:
     fontcdn: google
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: fontawesome
-
- 
