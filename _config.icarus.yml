@@ -29,7 +29,7 @@ navbar:
     links:
         github项目地址:
             icon: fab fa-github
-            url: https://github.com/enncy/blog
+            url: https://github.com/enncy/enncy.github.io
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -42,7 +42,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         github项目地址:
             icon: fab fa-github
-            url: https://github.com/enncy/blog
+            url: https://github.com/enncy/enncy.github.io
         关于:
             url: /about
 # Article related configurations
@@ -70,9 +70,27 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: enncyblog
+    # type: disqus
+    # # Disqus shortname
+    # shortname: enncyblog
+
+    type: gitalk
+    client_id: 317a3e3df1841706c2b6
+    client_secret: 19d5d700522c55575bf0da1f529ff14f5425240c
+    repo: https://github.com/enncy/enncy.github.io
+    owner: enncy
+    admin:
+        - enncy
+    per_page: 20                    # 可选填
+    distraction_free_mode: false    # 可选填
+    pager_direction: last           # 可选填
+    create_issue_manually: false    # 可选填
+    proxy:                          # 可选填
+    flip_move_options:              # 可选填
+    enable_hotkey: true             # 可选填
+    language: zh-CN                 # 可选填
+
+
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:

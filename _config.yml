@@ -77,7 +77,7 @@ theme: icarus
 
 deploy:
   type: git
-  repo: git@github.com:enncy/blog.git
+  repo: git@github.com:enncy/enncy.github.io.git
   branch: main
   message: deploy blog
 

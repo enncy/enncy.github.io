@@ -5,7 +5,7 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "git add . && git cm -m \"deploy blog\" && git push origin dev && hexo clean && hexo g && hexo deploy",
+    "deploy": "set NODE_ENV=production && git add . && git cm -m \"deploy blog\" && git push origin dev && hexo clean && hexo g && hexo deploy",
     "server": "hexo server"
   },
   "hexo": {
