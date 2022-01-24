@@ -1,8 +1,8 @@
-title: enncy的博客
+title: 言小溪的博客
 subtitle: 分享所学的知识
 description: 欢迎大家来到我的博客，我会尽量写很多优质的文档或文章分享给大家，感谢关注！
 keywords: 博客,代码,前端,后端,爬虫
-author: enncy
+author: 言小溪
 language:
     - zh-CN
     - en
@@ -69,10 +69,11 @@ time_format: HH:mm:ss
 updated_option: mtime
 per_page: 19
 pagination_dir: page
-include:
-    - ".nojekyll"
-exclude: null
-ignore: null
+include: null
+exclude: 
+    - scripts/**/*
+ignore: 
+    - scripts/**/*
 theme: icarus
 
 deploy:
@@ -95,19 +96,27 @@ feed:
     order_by: -date
     icon: #icon.png
 
-    
 markdown:
-    preset: "default"
     render:
-        html: true
-        xhtmlOut: false
-        langPrefix: "language-"
-        breaks: true
-        linkify: true
-        typographer: true
-        quotes: "“”‘’"
-    enable_rules:
-    disable_rules:
+        html: true # 在 markdown 文本中支持 html tag 标签
+        xhtmlOut: false # 需要 xtml 文档，使用 <br /> 替代 <br>
+        breaks: true # 用 <br> 开始新的一行
+        linkify: true # 自动将 可能是链接的内容转换成链接
+        typographer: true # 印刷标识转换
     plugins:
         - markdown-it-container
+        - markdown-it-abbr
+        - markdown-it-footnote
+        - markdown-it-ins
+        - markdown-it-sub
+        - markdown-it-sup
         - markdown-it-emoji
+        - markdown-it-task-lists
+    anchors:
+        level: 2
+        collisionSuffix: ""
+        permalink: false,
+        permalinkClass: "header-anchor"
+        permalinkSymbol: ""
+        case: 0
+        separator: ""

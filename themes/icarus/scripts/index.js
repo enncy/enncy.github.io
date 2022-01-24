@@ -1,5 +1,8 @@
 /* global hexo */
-const logger = require('hexo-log')();
+const logger = require("hexo-log")();
+ 
+console.log("###############  theme ###############");
+
 
 /**
  * Print welcome message
@@ -16,17 +19,14 @@ logger.info(`=======================================
 /**
  * Check if all dependencies are installed
  */
-require('../include/dependency')(hexo);
+require("../include/dependency")(hexo);
 
 /**
  * Configuration file checking and migration
  */
-require('../include/config')(hexo);
+require("../include/config")(hexo);
 
 /**
  * Register Hexo extensions and remove Hexo filters that could cause OOM
  */
-require('../include/register')(hexo);
-
-
- 
+require("../include/register")(hexo);

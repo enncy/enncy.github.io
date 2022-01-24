@@ -4,7 +4,7 @@ version: 4.0.0
 variant: default
 # Path or URL to the website's logo
 logo:
-    text: enncy的博客
+    text: 言小溪的博客
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -101,10 +101,10 @@ donates:
       # URL to the "Afdian.net" personal page
       url: https://afdian.net/@enncy
     # # Alipay donate button configurations
-    # -
-    #     type: alipay
-    #     # Alipay qrcode image URL
-    #     qrcode: ''
+    -
+        type: alipay
+        # Alipay qrcode image URL
+        qrcode: img/alipay.png
     # # "Buy me a coffee" donate button configurations
     # -
     #     type: buymeacoffee
@@ -123,10 +123,10 @@ donates:
     #     # Currency code
     #     currency_code: USD
     # Wechat donate button configurations
-    # -
-    #     type: wechat
-    #     # Wechat qrcode image URL
-    #     qrcode: ''
+    -
+        type: wechat
+        # Wechat qrcode image URL
+        qrcode: img/wechat.png
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
@@ -147,6 +147,54 @@ sidebar:
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
+    # Profile widget configurations
+    - # Where should the widget be placed, left sidebar or right sidebar
+      position: right
+      type: profile
+      # Author name
+      author: 言小溪
+      # Author title
+      author_title: 言小溪(enncy)
+      # Author's current location
+      location: 中国
+      # URL or path to the avatar image
+      avatar: /img/avatar.png
+      # Whether show the rounded avatar image
+      avatar_rounded: true
+      # Email address for the Gravatar
+      gravatar:
+      # URL or path for the follow button
+      follow_link: https://github.com/enncy
+      # Links to be shown on the bottom of the profile widget
+      social_links:
+          Github:
+              icon: fab fa-github
+              url: https://github.com/enncy
+          ZHIHU:
+              icon: fab fa-zhihu
+              url: https://www.zhihu.com/people/yxx-enncy
+          RSS:
+              icon: fas fa-rss
+              url: /atom.xml
+    # Recommendation links widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: links
+    #     # Names and URLs of the sites
+    #     links:
+    #         Hexo: https://hexo.io
+    #         Bulma: https://bulma.io
+    # Google AdSense unit configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: right
+    #     type: adsense
+    #     # AdSense client ID
+    #     client_id: ''
+    #     # AdSense AD unit ID
+    #     slot_id: ''
+
     # Recent posts widget configurations
     - # Where should the widget be placed, left sidebar or right sidebar
       position: right
