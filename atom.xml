@@ -1,66 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>enncy的博客</title>
+  <title>言小溪的博客</title>
   
   <subtitle>分享所学的知识</subtitle>
   <link href="https://enncy.github.io/atom.xml" rel="self"/>
   
   <link href="https://enncy.github.io/"/>
-  <updated>2022-01-21T13:32:56.573Z</updated>
+  <updated>2022-01-24T10:11:24.206Z</updated>
   <id>https://enncy.github.io/</id>
   
   <author>
-    <name>enncy</name>
+    <name>言小溪</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Jpptr 文档</title>
-    <link href="https://enncy.github.io/jpptr/"/>
-    <id>https://enncy.github.io/jpptr/</id>
-    <published>2022-01-21T08:12:27.000Z</published>
-    <updated>2022-01-21T13:32:56.573Z</updated>
+    <title>网课教程(1)  前言</title>
+    <link href="https://enncy.github.io/2022/01/24/%E7%BD%91%E8%AF%BE/%E7%BD%91%E8%AF%BE%E6%95%99%E7%A8%8B(1)%20%20%E5%89%8D%E8%A8%80/"/>
+    <id>https://enncy.github.io/2022/01/24/%E7%BD%91%E8%AF%BE/%E7%BD%91%E8%AF%BE%E6%95%99%E7%A8%8B(1)%20%20%E5%89%8D%E8%A8%80/</id>
+    <published>2022-01-24T10:20:47.000Z</published>
+    <updated>2022-01-24T10:11:24.206Z</updated>
     
     
-    <summary type="html">一个使用 json 语法糖去执行 puppeteer 的框架。
-项目地址: [github.com/enncy/jpptr](github.com/enncy/jpptr)
-
-&lt;article class=&quot;message message-immersive is-info&quot;&gt;
-                        &lt;div class=&quot;message-body&quot;&gt;
-                            &lt;i class=&quot;undefined mr-2&quot;&gt;&lt;/i&gt;
-                            test
-                        &lt;/div&gt;
-                    &lt;/article&gt;</summary>
-    
-    
-    
-    <category term="文档" scheme="https://enncy.github.io/categories/%E6%96%87%E6%A1%A3/"/>
-    
-    
-    <category term="文档" scheme="https://enncy.github.io/tags/%E6%96%87%E6%A1%A3/"/>
-    
-    <category term="json" scheme="https://enncy.github.io/tags/json/"/>
-    
-    <category term="jpptr" scheme="https://enncy.github.io/tags/jpptr/"/>
-    
-    <category term="puppeteer" scheme="https://enncy.github.io/tags/puppeteer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试文章</title>
-    <link href="https://enncy.github.io/2022/01/21/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-    <id>https://enncy.github.io/2022/01/21/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</id>
-    <published>2022-01-21T05:26:20.000Z</published>
-    <updated>2022-01-21T05:26:20.601Z</updated>
-    
-    
-    <summary type="html">摘要</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;欢迎来到skeleton系列教程 ：&lt;a href=&quot;https://blog.csdn.net/qq_31254489/category_10415167.html&quot;&gt;网课脚本编写教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;什么是脚本？&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#什么是脚本？&quot;&gt;&lt;/a&gt;什么是脚本？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;脚本（Script），是使用一种特定的描述性语言，依据一定的格式编写的可执行文件。&lt;br&gt;
+脚本语言又被称为扩建的语言, 或者动态语言, 是一种编程语言, 用来控制软件应用程序, 脚本通常是以文本 (ASCⅡ) 保存, 只是在被调用时进行解释或者编译。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
+    <category term="网课" scheme="https://enncy.github.io/categories/%E7%BD%91%E8%AF%BE/"/>
+    
+    
+    <category term="网课脚本 脚本 网课脚本" scheme="https://enncy.github.io/tags/%E7%BD%91%E8%AF%BE%E8%84%9A%E6%9C%AC-%E8%84%9A%E6%9C%AC-%E7%BD%91%E8%AF%BE%E8%84%9A%E6%9C%AC/"/>
     
   </entry>
   
@@ -76,45 +54,12 @@
       
         
         
-    <summary type="html">
-欢迎来到我的博客 😁, 有任何问题,请到 [关于](/about) 页面获取我的联系方式，联系我。
-
-
-</summary>
+    <summary type="html">&lt;p&gt;欢迎来到我的博客 😁, 有任何问题,请到 &lt;a href=&quot;/about&quot;&gt;关于&lt;/a&gt;</summary>
         
       
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>测试</title>
-    <link href="https://enncy.github.io/2022/01/19/test/"/>
-    <id>https://enncy.github.io/2022/01/19/test/</id>
-    <published>2022-01-19T12:08:13.000Z</published>
-    <updated>2022-01-20T15:47:46.331Z</updated>
-    
-    
-    <summary type="html">测试</summary>
-    
-    
-    
-    <category term="分类1" scheme="https://enncy.github.io/categories/%E5%88%86%E7%B1%BB1/"/>
-    
-    <category term="分类2" scheme="https://enncy.github.io/categories/%E5%88%86%E7%B1%BB2/"/>
-    
-    <category term="分类3" scheme="https://enncy.github.io/categories/%E5%88%86%E7%B1%BB3/"/>
-    
-    <category term="分类3-1" scheme="https://enncy.github.io/categories/%E5%88%86%E7%B1%BB3/%E5%88%86%E7%B1%BB3-1/"/>
-    
-    <category term="分类4" scheme="https://enncy.github.io/categories/%E5%88%86%E7%B1%BB4/"/>
-    
-    
-    <category term="标签1" scheme="https://enncy.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
-    
-    <category term="标签2" scheme="https://enncy.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
     
   </entry>
   

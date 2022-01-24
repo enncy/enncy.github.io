@@ -10980,6 +10980,9 @@ a.article-nav-next span {
     margin-left: 0;
   }
 }
+.navbar-logo {
+  font-weight: bold;
+}
 .navbar-logo img {
   max-height: 1.75rem;
 }
